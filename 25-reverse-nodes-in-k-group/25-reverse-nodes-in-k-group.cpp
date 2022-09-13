@@ -9,16 +9,6 @@
  * };
  */
 
-/* In Approach - 2, we will NOT be using any extra Recursive Stack Space
-To save space, we will use be using iterative approach to Reverse Nodes in Groups of K
-Instead of using Start, here we will be using beforeStart which points to the Node before Start Pointer
-We also need to store the End's Next in temp variable
-After reversing, we just have to make:
-a) beforeStart -> next = End
-b) Start -> next = temp
-Move beforeStart to Start & end to temp for next set of reversals
-*/
-
 class Solution {
 private :
 
