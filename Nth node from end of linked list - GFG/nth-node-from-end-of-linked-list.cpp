@@ -74,13 +74,13 @@ int getNthFromLast(Node *head, int n)
    }
    int no = count-n;
     temp = head;
-    int co = 0;
+    //int co = 0;
     for(int i =0;i<=no;i++){
-        if(co == no){
+        if( i == no){
             return temp->data;
         }
         temp = temp->next;
-        co++;
+        //co++;
     }
    //return -1;
 }
